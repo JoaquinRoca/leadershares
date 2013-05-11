@@ -2,9 +2,7 @@ Leadershares::Application.routes.draw do
   get "initial_pages/home"
 
   get "initial_pages/invite"
-
   get "initial_pages/rate"
-
   get "initial_pages/results"
 
   # The priority is based upon order of creation:
