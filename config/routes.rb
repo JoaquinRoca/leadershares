@@ -1,10 +1,14 @@
 Leadershares::Application.routes.draw do
-  get "initial_pages/home"
+  get "users/new"
 
-  get "initial_pages/invite"
-  get "initial_pages/rate"
-  get "initial_pages/results"
+  root to: 'initial_pages#home'
 
+  match '/signup',  to: 'users#new'
+
+  match '/invite',  to: 'initial_pages#invite'
+  match '/rate',    to: 'initial_pages#rate'
+  match '/results', to: 'initial_pages#results'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

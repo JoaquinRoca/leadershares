@@ -10,4 +10,7 @@ class InitialPagesController < ApplicationController
 
   def results
   end
+
+  def signin
+  end
 end
