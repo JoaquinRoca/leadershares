@@ -1,7 +1,7 @@
 Leadershares::Application.routes.draw do
-  get "users/new"
+  resources :users
 
-  root to: 'initial_pages#home'
+  root to: 'static_pages#home'
 
   match '/signup',  to: 'users#new'
 
