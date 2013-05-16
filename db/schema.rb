@@ -22,6 +22,10 @@ ActiveRecord::Schema.define(:version => 20130512174108) do
     t.datetime "updated_at",   :null => false
   end
 
+  add_index "relationships", ["pairing_id"], :name => "index_relationships_on_pairing_id"
+  add_index "relationships", ["rater_id"], :name => "index_relationships_on_rater_id"
+  add_index "relationships", ["target_id"], :name => "index_relationships_on_target_id"
+
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"

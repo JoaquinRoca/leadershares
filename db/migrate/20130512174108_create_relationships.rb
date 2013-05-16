@@ -12,6 +12,5 @@ class CreateRelationships < ActiveRecord::Migration
     add_index :relationships, :target_id
     add_index :relationships, :rater_id
     add_index :relationships, :pairing_id
-    add_index :relationships, [:target_id, :rater_id, unique: true]
   end
 end
