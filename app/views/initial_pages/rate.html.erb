@@ -1,2 +1,12 @@
-<h1>InitialPages#rate</h1>
-<p>Find me in app/views/initial_pages/rate.html.erb</p>
+<div class="row-fluid">
+	<div class="span10 offset2">
+		<h2 class="span8 offset1">Please answer the following questions with @user.target_users.name in mind.</h2>
+	</div>
+</div>
+<%= render 'initial_pages/survey' %>
+<br>
+<div class="row-fluid">
+	<div class="offset9">
+		<%= link_to "Submit", '#', class: "btn btn-large btn-primary" %>
+	</div>
+</div>

@@ -1,2 +1,554 @@
-<h1>InitialPages#results</h1>
-<p>Find me in app/views/initial_pages/results.html.erb</p>
+<div class="row-fluid">
+	<div class="row-fluid">
+		<div class="span10 offset2">
+			<div class="btn-group offset8">
+				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+					Switch Assessments
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<a href="#"><li>Assessment 1</li></a>
+					<a href="#"><li>Assessment 2</li></a>
+				</ul>
+			</div>
+			<div class="row-fluid">
+				<canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000; margin-top: 50px">Your browser does not support the HTML5 canvas tag.</canvas>
+				<canvas id="myCanvas2" width="200" height="500" style="border:5px; margin-top: 50px">Your browser does not support the HTML5 canvas tag.</canvas>
+
+				<script>
+
+				// var c=document.getElementById("myCanvas");
+				// var ctx=c.getContext("2d");
+				// ctx.moveTo(500,0);
+				// ctx.lineTo(0,500);
+				// ctx.stroke();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.moveTo(400,0);
+				ctx.lineTo(0,400);
+				ctx.stroke();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.moveTo(600,0);
+				ctx.lineTo(0,600);
+				ctx.stroke();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "#7FFFD4";
+				ctx.beginPath();
+				ctx.moveTo(0,0);
+				ctx.lineTo(0,400);
+				ctx.lineTo(400,0);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "#FA8072";
+				ctx.beginPath();
+				ctx.moveTo(600,0);
+				ctx.lineTo(0,600);
+				ctx.lineTo(600,600);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.beginPath();
+				ctx.arc(95,220,5,0,2*Math.PI);
+				ctx.stroke();
+				ctx.fillStyle = "blue";
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.beginPath();
+				ctx.arc(95,170,5,0,2*Math.PI);
+				ctx.stroke();
+				ctx.fillStyle = "green";
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.beginPath();
+				ctx.arc(95,190,5,0,2*Math.PI);
+				ctx.stroke();
+				ctx.fillStyle = "red";
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "red";
+				ctx.beginPath();
+				ctx.moveTo(287,180);
+				ctx.lineTo(273,180);
+				ctx.lineTo(280,165);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "blue";
+				ctx.beginPath();
+				ctx.moveTo(287,160);
+				ctx.lineTo(273,160);
+				ctx.lineTo(280,145);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "green";
+				ctx.beginPath();
+				ctx.moveTo(287,130);
+				ctx.lineTo(273,130);
+				ctx.lineTo(280,115);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "green";
+				ctx.beginPath();
+				ctx.moveTo(187,230);
+				ctx.lineTo(173,230);
+				ctx.lineTo(187,215);
+				ctx.lineTo(173,215);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "blue";
+				ctx.beginPath();
+				ctx.moveTo(187,200);
+				ctx.lineTo(173,200);
+				ctx.lineTo(187,185);
+				ctx.lineTo(173,185);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "red";
+				ctx.beginPath();
+				ctx.moveTo(187,150);
+				ctx.lineTo(173,150);
+				ctx.lineTo(187,135);
+				ctx.lineTo(173,135);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="20px Arial";
+				ctx.fillText("Other",5,20);
+
+				var c=document.getElementById("myCanvas");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="20px Arial";
+				ctx.fillText("Self",455,494);
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="15px Arial";
+				ctx.fillText("Active Listening",5,20);
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.beginPath();
+				ctx.arc(175,15,5,0,2*Math.PI);
+				ctx.stroke();
+				ctx.fillStyle = "black";
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="15px Arial";
+				ctx.fillText("Creating Trust",5,45);
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.beginPath();
+				ctx.moveTo(182,47);
+				ctx.lineTo(168,47);
+				ctx.lineTo(175,32);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="15px Arial";
+				ctx.fillText("Communicating Vision",5,70);
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.beginPath();
+				ctx.moveTo(182,73);
+				ctx.lineTo(168,73);
+				ctx.lineTo(182,58);
+				ctx.lineTo(168,58);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "green";
+				ctx.font="15px Arial";
+				ctx.fillText("Friends/Family",5,150);
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "red";
+				ctx.font="15px Arial";
+				ctx.fillText("Coworkers",5,175);
+
+				var c=document.getElementById("myCanvas2");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "blue";
+				ctx.font="15px Arial";
+				ctx.fillText("Supervisor",5,200);
+
+				</script>
+			</div>
+			<div class="row-fluid">
+				<canvas id="myCanvas3" width="715" height="545" style="margin-top: 50px">Your browser does not support the HTML5 canvas tag.</canvas>
+
+				<script>
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="15px Arial";
+				ctx.fillText("Active Listening",40,20);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.beginPath();
+				ctx.arc(25,15,5,0,2*Math.PI);
+				ctx.stroke();
+				ctx.fillStyle = "black";
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Self",60,40);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.beginPath();
+				ctx.moveTo(202,45);
+				ctx.lineTo(202,30);
+				ctx.lineTo(158,30);
+				ctx.lineTo(158,45);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("50",210,40);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Friends/Family",60,60);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "green";
+				ctx.beginPath();
+				ctx.moveTo(272,65);
+				ctx.lineTo(272,50);
+				ctx.lineTo(158,50);
+				ctx.lineTo(158,65);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("70",280,61);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Coworers",60,80);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "red";
+				ctx.beginPath();
+				ctx.moveTo(252,85);
+				ctx.lineTo(252,70);
+				ctx.lineTo(158,70);
+				ctx.lineTo(158,85);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("65",260,82);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Supervisor",60,100);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "blue";
+				ctx.beginPath();
+				ctx.moveTo(232,105);
+				ctx.lineTo(232,90);
+				ctx.lineTo(158,90);
+				ctx.lineTo(158,105);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("55",240,103);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="15px Arial";
+				ctx.fillText("Creating Trust",40,195);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.beginPath();
+				ctx.moveTo(32,197);
+				ctx.lineTo(18,197);
+				ctx.lineTo(25,182);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Self",60,215);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.beginPath();
+				ctx.moveTo(202,220);
+				ctx.lineTo(202,205);
+				ctx.lineTo(158,205);
+				ctx.lineTo(158,220);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("50",210,215);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Friends/Family",60,235);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "green";
+				ctx.beginPath();
+				ctx.moveTo(272,240);
+				ctx.lineTo(272,225);
+				ctx.lineTo(158,225);
+				ctx.lineTo(158,240);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("70",280,236);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Coworers",60,255);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "red";
+				ctx.beginPath();
+				ctx.moveTo(252,260);
+				ctx.lineTo(252,245);
+				ctx.lineTo(158,245);
+				ctx.lineTo(158,260);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("65",260,257);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Supervisor",60,275);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "blue";
+				ctx.beginPath();
+				ctx.moveTo(232,280);
+				ctx.lineTo(232,265);
+				ctx.lineTo(158,265);
+				ctx.lineTo(158,280);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("55",240,278);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="15px Arial";
+				ctx.fillText("Communicating Vision",40,370);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.beginPath();
+				ctx.moveTo(32,373);
+				ctx.lineTo(18,373);
+				ctx.lineTo(32,358);
+				ctx.lineTo(18,358);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Self",60,390);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.beginPath();
+				ctx.moveTo(202,395);
+				ctx.lineTo(202,380);
+				ctx.lineTo(158,380);
+				ctx.lineTo(158,395);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("50",210,390);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Friends/Family",60,410);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "green";
+				ctx.beginPath();
+				ctx.moveTo(272,415);
+				ctx.lineTo(272,400);
+				ctx.lineTo(158,400);
+				ctx.lineTo(158,415);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("70",280,411);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Coworers",60,430);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "red";
+				ctx.beginPath();
+				ctx.moveTo(252,435);
+				ctx.lineTo(252,420);
+				ctx.lineTo(158,420);
+				ctx.lineTo(158,435);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("65",260,432);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("Supervisor",60,450);
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "blue";
+				ctx.beginPath();
+				ctx.moveTo(232,455);
+				ctx.lineTo(232,440);
+				ctx.lineTo(158,440);
+				ctx.lineTo(158,455);
+				ctx.closePath();
+				ctx.fill();
+
+				var c=document.getElementById("myCanvas3");
+				var ctx=c.getContext("2d");
+				ctx.fillStyle = "black";
+				ctx.font="12px Arial";
+				ctx.fillText("55",240,453);
+				</script>
+			</div>
+		</div>
+	</div>
+</div>

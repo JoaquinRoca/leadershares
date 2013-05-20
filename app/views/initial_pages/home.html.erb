@@ -1,13 +1,35 @@
 <div class="center hero-unit">
-  <h1>Welcome to the Sample App</h1>
-
-  <h2>
-    This is the home page for the
-    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
-
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+  <h1>Welcome to Leadershares</h1>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+<div class="row-fluid">
+	<div class="span10 offset2">
+		<div class="row-fluid">
+	  	<div class="span2">
+	  		Show notes:
+	  	</div>
+	  	<div class="span8">
+	  		In this video you'll hear Dane Atkinson, CEO of SumAll tell you all about what he thinks are the most important aspects of leadership. Dane targets three points in particular:
+	  		<ul>
+	  			<li>Active Listening</li>
+	  			<li>Creating Trust</li>
+	  			<li>Communicating Vision</li>
+	  		</ul>
+	  	</div>
+	  	<br>
+		</div>
+		<div class="offset1">
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/co1YlIf9Dcg" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+<br>
+
+<%= render 'initial_pages/survey' %>
+
+<br>
+<div class="row-fluid">
+	<div class="offset9">
+		<%= link_to "Submit", '#', class: "btn btn-large btn-primary" %>
+	</div>
+</div>
